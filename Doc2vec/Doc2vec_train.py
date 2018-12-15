@@ -8,21 +8,32 @@ import random
 import json
 from gensim import models
 from gensim.models.doc2vec import LabeledSentence
+
 import sys
 sys.path.append("..")
 from Preprocessing import File_operation
 
 """パラメータの設定"""
-corpus = "Wiki_1012155"
-dm = 1
-model_name = "dm"
-size = 20
-window = 5
-min_count = 5
+corpus = XXXXXXXXXX
+dm = XXXXXXXXXX
+model_name = XXXXXXXXXX
+size = XXXXXXXXXX
+window = XXXXXXXXXX
+min_count = XXXXXXXXXX
 iteration = 1
-epoch = 20
-RADOM_NUMBER = 100
-#PASSING_PRECISION = 93#閾値
+epoch = XXXXXXXXXX
+#RADOM_NUMBER = 100
+
+"""
+corpus:何をコーパスとしたか
+dm:モデルの指定(0:dvdbow,1:dm)
+model_name:モデル名
+size:ベクトルの次元数
+window:ウィンドウサイズ
+min_count:最低出現単語数
+iteration:gensim自体のエポック数（エポックごとにモデルを保存するために1としている）
+epoch:エポック数
+"""
 
 """読み込み先・保存先"""
 INPUT = XXXXXXXXXX

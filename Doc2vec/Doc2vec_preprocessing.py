@@ -5,6 +5,7 @@ import MeCab
 import os
 import json
 from tqdm import tqdm
+
 import sys
 sys.path.append("..")
 from Preprocessing import Delete

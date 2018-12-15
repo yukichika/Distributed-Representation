@@ -1,4 +1,4 @@
-# Distributed Representation
+# Distributed-Representation
 
 ## Requirements
 

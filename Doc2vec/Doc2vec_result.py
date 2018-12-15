@@ -2,9 +2,7 @@
 # -*- coding:utf-8 -*-
 
 from gensim import models
-import re
-import json
-import csv
+
 import sys
 sys.path.append("..")
 from Preprocessing import Wakati
