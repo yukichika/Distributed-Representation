@@ -1,8 +1,11 @@
 # !/usr/bin/env python
 # -*- coding:utf-8 -*-
 
-from gensim import models
+"""
+学習済みモデルを用いて，文書の類似度・演算を計算
+"""
 
+from gensim import models
 import sys
 sys.path.append("..")
 from Preprocessing import Wakati

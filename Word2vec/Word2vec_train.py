@@ -1,6 +1,10 @@
 ﻿# !/usr/bin/env python
 # -*- coding:utf-8 -*-
 
+"""
+word2vecの学習
+"""
+
 import configparser
 import logging
 import codecs

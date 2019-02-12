@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+doc2vecの学習
+"""
+
 import os
 import logging
 import collections

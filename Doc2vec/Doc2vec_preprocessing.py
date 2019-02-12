@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+doc2vec学習前の前処理プログラム
+"""
+
 import MeCab
 import os
 import json

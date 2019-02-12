@@ -1,6 +1,10 @@
 # !/usr/bin/env python
 # -*- coding:utf-8 -*-
 
+"""
+word2vecの学習済みモデルを用いて，単語の類似度・演算を計算
+"""
+
 from gensim.models import word2vec
 
 """類似度"""

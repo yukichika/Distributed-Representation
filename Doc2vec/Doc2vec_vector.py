@@ -1,6 +1,10 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+"""
+学習済みモデルを用いて，未知文書（コーパス外の文書）をベクトル化
+"""
+
 import os
 import codecs
 import pickle
